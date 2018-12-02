@@ -1,44 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FIXES:
 
-## Available Scripts
+-   line 29 href link
+-   line 33 source of data.js location
 
-In the project directory, you can run:
+<h1>JavaScript Test</h1>
 
-### `npm start`
+<h2>Designing</h2>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Thinking of a design for the test was driving me crazy. I was just not coming up with anything.
+I decided to try out Adobe XD, which I just so happened to install a couple days prior to starting this project. Being that I know the other adobe programs, learning adobe XD wasn't difficult at all. In fact, I didn't spend anytime fiddling around. I went straight into creating the project.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+It took about two hours to finish creating the prototype in Adobe XD. That included choosing the color scheme and the font. Way faster than I expected!
 
-### `npm test`
+<h2>Developing</h2>
+Developing the web app took longer than expected. (Which project didn't? :wink:) This was my first react application. It was a lot of fun, and I'm never going back to plain old JavaScript. (Well, never is a strong word, but I clearly dislike vanila JavaScript.) Components just makes so much more sense and makes the code and project neater and clearer.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>What is JavaScript Test?</h2>
+As the name suggests is a test for JavaScript. Yes, there are plenty of websites that offer questions and answers for JavaScript, but that's the exact problem. There are <strong>plenty</strong> of sources without a single source of ([For react devs:] truth) content. This was created so that no one has to go fishing all over google for tests.
 
-### `npm run build`
+JavaScript Test introduces a modern, clean, and user friendly interface which is really easy and fun to use.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Who is this for?</h2>
+<ul>
+    <li>Do you really understand JavaScript, or do you just copy and paste code from stackoverflow?</li>
+    <li>Are you going to, or preparing for, a job interview and don't know what to expect?</li>
+    <li>Or do you have a good understaning of JavaScript but just want to have some fun and prove to your friends how much you know?</li>
+</ul>
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+If you answered YES to any of these questions, then you should <strong><a href="#">Take this test</a></strong>!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>Contributing</h2>
+Want to be part of the JavaScript Test comunity? This is a really easy project to contribute to. Probably the easiest. Just head over to: and
+add a question. It can be something you just learned today, a question you had, or you can even make up a question based on the knowlege you know. This is the source for all of JavaScript Questions.
 
-### `npm run eject`
+<h3>Why Contribute</h3>
+We were/all are in this position some time or another. You're trying to find JavaScript questions, for whatever reason, to test your knowledge, prepare for a job interview, or even just to have fun. Did it ever cross your mind that there should be one single source for all the JavaScript questions? Well, here it is, and we rely on people like you to contribute, so that we can expand the amount of questions there are in this test.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h3>Rules for Contributing Questions</h3>
+<ul>
+    <li>Make sure the question you're posting is not a duplicate.</li>
+    <li>The question has to be on JavaScript only.</li>
+    <li>There has to be between 2-4 answers. Not more, and not less.</li>
+</ul>

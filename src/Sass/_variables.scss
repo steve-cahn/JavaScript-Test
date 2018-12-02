@@ -1,0 +1,21 @@
+$primaryColor: #5c22ff;
+$secondaryColor: #64ceaa;
+
+$primaryBG: lighten($primaryColor, 37%);
+
+$correctColor: #36aa21;
+$wrongColor: #d94040;
+
+$correctBG: lighten($correctColor, 46%);
+$wrongBG: lighten($wrongColor, 35%);
+
+$textColor: #636363;
+
+$largeBodyWidth: 1000px;
+
+$windowPadding: 40px;
+$windowSmallPadding: 20px;
+
+$phone: 470px;
+$tablet: 700px;
+$bigLandscape: 1100px;

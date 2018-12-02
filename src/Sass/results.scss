@@ -1,0 +1,51 @@
+@import '_variables.scss';
+
+.results-wrapper {
+	color: $textColor;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.title {
+		margin-top: 10px;
+		font-size: 55px;
+		letter-spacing: 1px;
+		display: flex;
+		align-items: baseline;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+
+	.score-percentage {
+		letter-spacing: 1px;
+		font-size: 28px;
+
+		span {
+			font-size: 34px;
+			margin: 0 12px;
+		}
+	}
+
+	.stats-result {
+		margin-top: 10px;
+		font-size: 18px;
+		letter-spacing: 0.4px;
+
+		.stat-qty {
+			font-weight: 700;
+			margin: 0 2px;
+		}
+
+		.correct {
+			color: $correctColor;
+		}
+
+		.wrong {
+			color: $wrongColor;
+		}
+	}
+
+	.play-again-btn {
+		margin-top: 70px;
+	}
+}

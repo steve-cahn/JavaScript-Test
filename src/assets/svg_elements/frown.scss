@@ -1,0 +1,56 @@
+@import '../../Sass/variables';
+
+.frown {
+	.cls-1,
+	.cls-2 {
+		fill: #6c63ff;
+	}
+
+	.cls-1,
+	.cls-13,
+	.cls-9 {
+		opacity: 0.1;
+	}
+
+	.cls-1,
+	.cls-5,
+	.cls-9 {
+		isolation: isolate;
+	}
+
+	.cls-3 {
+		fill: #444053;
+	}
+
+	.cls-4 {
+		fill: #f6f8fb;
+	}
+
+	.cls-5 {
+		opacity: 0.05;
+	}
+
+	.cls-6 {
+		fill: url(#linear-gradient);
+	}
+
+	.cls-7 {
+		fill: #65617d;
+	}
+
+	.cls-8 {
+		fill: #a27772;
+	}
+
+	.cls-10 {
+		fill: #fbbebe;
+	}
+
+	.cls-11 {
+		fill: #3f3d56;
+	}
+
+	.cls-12 {
+		fill: #7c5c5c;
+	}
+}

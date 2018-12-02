@@ -1,0 +1,14 @@
+@import '_variables.scss';
+
+.bottom-bar {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	padding: 0 $windowPadding;
+	background-color: $primaryColor;
+	margin-top: 110px;
+
+	img {
+		opacity: 0.3;
+	}
+}

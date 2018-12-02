@@ -1,0 +1,47 @@
+@import '../Sass/variables';
+
+// From parent ul element
+ul.switcher-container {
+	display: flex;
+}
+
+.switcher-element {
+	&:first-child .switcher-label {
+		border-radius: 8px;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	&:last-child .switcher-label {
+		border-radius: 8px;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	input {
+		display: none;
+
+		&:checked + .switcher-label {
+			background-color: $primaryColor;
+			color: white;
+		}
+	}
+	.switcher-label {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border: 1px solid $primaryColor;
+		width: 150px;
+		height: 70px;
+		font-size: 19px;
+		letter-spacing: 3px;
+		font-weight: 600;
+		user-select: none;
+		background-color: white;
+
+		&:hover {
+			background-color: lighten($primaryColor, 35%);
+		}
+	}
+}

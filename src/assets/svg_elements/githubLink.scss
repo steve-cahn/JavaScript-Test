@@ -1,0 +1,30 @@
+@import '../../Sass/_variables.scss';
+
+/*  Github Logo  */
+
+.github-corner {
+	&:hover .octo-arm {
+		animation: octocat-wave 1120ms ease-in-out infinite;
+	}
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+	10%,
+	30% {
+		transform: rotate(-25deg);
+	}
+	20%,
+	40% {
+		transform: rotate(10deg);
+	}
+}
+
+@media only screen and (max-width: $phone) {
+	.github-corner {
+		display: none;
+	}
+}

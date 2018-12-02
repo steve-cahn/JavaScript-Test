@@ -1,0 +1,73 @@
+@import '_variables.scss';
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+	font-family: inherit;
+	outline: none;
+	border: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.btn {
+	border: 2px solid;
+	background-color: white;
+	color: $primaryColor;
+
+	&.large {
+		font-size: 24px;
+		padding: 20px 67px;
+		border-radius: 13px;
+		letter-spacing: 2px;
+	}
+
+	&.med {
+		font-size: 20px;
+		padding: 16px 30px;
+		border-radius: 10px;
+		letter-spacing: 1px;
+	}
+
+	&.small {
+		font-size: 17px;
+		padding: 12px 15px;
+		border-radius: 10px;
+		letter-spacing: 1px;
+	}
+
+	&.colored {
+		background-color: $primaryColor;
+		color: white;
+	}
+
+	&:disabled {
+		color: #a5a5a5;
+	}
+
+	&:hover:not(:disabled) {
+		background-color: $primaryColor;
+		color: white;
+
+		&.colored {
+			color: $primaryColor;
+			background-color: white;
+		}
+	}
+}
