@@ -2,7 +2,7 @@
 	"name": "javascript-test",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://steve-cahn.github.io/JavaScript-Test/",
+	"homepage": "http://steve-cahn.github.io/JavaScript-Test/",
 	"dependencies": {
 		"react": "^16.6.1",
 		"react-dom": "^16.6.1",
