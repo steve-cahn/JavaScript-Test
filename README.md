@@ -1,8 +1,3 @@
-FIXES:
-
--   line 29 href link
--   line 33 source of data.js location
-
 <h1>JavaScript Test</h1>
 
 <h2>Designing</h2>
@@ -27,7 +22,7 @@ JavaScript Test introduces a modern, clean, and user friendly interface which is
     <li>Or do you have a good understaning of JavaScript but just want to have some fun and prove to your friends how much you know?</li>
 </ul>
 
-If you answered YES to any of these questions, then you should <strong><a href="#">Take this test</a></strong>!
+If you answered YES to any of these questions, then you should <strong><a href="https://steve-cahn.github.io/Javascript-test/">Take this test</a></strong>!
 
 <h2>Contributing</h2>
 Want to be part of the JavaScript Test comunity? This is a really easy project to contribute to. Probably the easiest. Just head over to: and
