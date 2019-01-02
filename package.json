@@ -2,12 +2,13 @@
 	"name": "javascript-test",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://steve-cahn.github.io/JavaScript-Test/",
+	"homepage": "https://steve-cahn.github.io/Javascript-test/",
 	"dependencies": {
 		"react": "^16.6.1",
 		"react-dom": "^16.6.1",
+		"react-router": "^4.3.1",
 		"react-router-dom": "^4.3.1",
-		"react-scripts": "2.1.1"
+		"react-scripts": "^2.1.2"
 	},
 	"scripts": {
 		"start": "react-scripts start",

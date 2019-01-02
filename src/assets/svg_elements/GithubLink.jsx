@@ -22,7 +22,7 @@ const GithubLogo = () => (
 
 const GithubLink = props => {
 	return (
-		<a href={props.githubLink} className="github-corner" aria-label="View source on GitHub">
+		<a href="https://github.com/steve-cahn" className="github-corner" aria-label="View source on GitHub">
 			<GithubLogo className="App-logo" />
 		</a>
 	);

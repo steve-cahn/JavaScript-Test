@@ -3,8 +3,6 @@ import GithubLink from '../assets/svg_elements/GithubLink';
 import '../Sass/header.scss';
 
 const Header = props => {
-	const githubLink = 'https://google.com';
-
 	let stopWatchComponent;
 	let feedbackClassName = 'feedback ' + props.type;
 
@@ -23,7 +21,7 @@ const Header = props => {
 		<div className="header">
 			<div className="stopWatch">{stopWatchComponent && stopWatchComponent}</div>
 			<div className={feedbackClassName}>{props.feedbackText}</div>
-			<GithubLink githubLink={githubLink} />
+			<GithubLink />
 		</div>
 	);
 };

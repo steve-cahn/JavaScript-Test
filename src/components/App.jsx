@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, Redirect, withRouter } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect, withRouter } from 'react-router-dom';
 import AppBar from './AppBar';
 import Header from './Header';
 import WelcomContent from './WelcomeContent';
@@ -74,7 +74,7 @@ class App extends Component {
 
 	endTestHandler = answeredResults => {
 		this.answeredResults = answeredResults;
-		this.props.history.push('/results');
+		this.props.history.push('/results/');
 	};
 
 	render() {
@@ -93,27 +93,31 @@ class App extends Component {
 					shouldShowStopWatch={this.state.shouldShowStopWatch}
 				/>
 
-				<Switch>
-					<Route
-						path="/test"
-						render={() => (
-							<QuestionMainContent
-								testLevel={currentLevel}
-								showAlert={this.showAlert}
-								startStopWatch={this.startStopWatchHandler}
-								stopStopWatch={this.stopStopWatchHandler}
-								endTestHandler={this.endTestHandler}
-							/>
-						)}
-					/>
-					<Route
-						path="/results"
-						render={() => <Results endTime={this.state.stopWatch} answeredResults={this.answeredResults} />}
-					/>
-					<Route path="/404" component={NotFound} />
-					<Route path="/" exact render={() => <WelcomContent levelChangeHandler={this.levelChangeHandler} />} />
-					<Redirect to="/404" />
-				</Switch>
+				<HashRouter>
+					<Switch>
+						<Route
+							path="/test"
+							exact
+							render={() => (
+								<QuestionMainContent
+									testLevel={currentLevel}
+									showAlert={this.showAlert}
+									startStopWatch={this.startStopWatchHandler}
+									stopStopWatch={this.stopStopWatchHandler}
+									endTestHandler={this.endTestHandler}
+								/>
+							)}
+						/>
+						<Route
+							path="/results"
+							exact
+							render={() => <Results endTime={this.state.stopWatch} answeredResults={this.answeredResults} />}
+						/>
+						<Route path="/404" component={NotFound} />
+						<Route exact path="/" render={() => <WelcomContent levelChangeHandler={this.levelChangeHandler} />} />
+						<Redirect to="/404" />
+					</Switch>
+				</HashRouter>
 
 				<BottomBar />
 			</div>
